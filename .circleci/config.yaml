@@ -12,6 +12,6 @@ jobs:
           command: echo $CIRCLE_USERNAME
       - run:
           name: Muti-line commands - echo & echo
-          command:
+          command: |
             echo $CIRCLE_REPOSITORY_URL
             echo $CIRCLE_BRANCH
